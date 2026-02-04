@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name – Front-End Web Designer & International Career Seeker</title>
+  <style>
+    /* Basic reset */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height:1.6; background:#f7f7f7; color:#333; }
+
+    /* Header */
+    header { background-color:#1DB954; color:white; text-align:center; padding:4rem 1rem; }
+    header h1 { font-size:2.5rem; margin-bottom:0.5rem; }
+    header p { font-size:1.2rem; }
+
+    /* Sections */
+    section { max-width:1000px; margin:3rem auto; padding:0 1rem; }
+    h2 { text-align:center; color:#1DB954; margin-bottom:1.5rem; }
+
+    /* Projects grid */
+    .projects { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.5rem; }
+    .project-card { background:white; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); padding:1rem; transition: transform 0.2s ease; }
+    .project-card:hover { transform: scale(1.03); }
+    .project-card img { width:100%; border-radius:8px; }
+    .project-card h3 { margin:0.5rem 0; font-size:1.1rem; }
+    .project-card p { font-size:0.9rem; color:#555; margin-bottom:0.5rem; }
+    .project-card a { text-decoration:none; color:#1DB954; font-weight:bold; font-size:0.9rem; }
+
+    /* Resume / Skills */
+    .resume { display:grid; grid-template-columns:1fr 1fr; gap:2rem; margin-top:2rem; }
+    .resume div { background:white; padding:1.5rem; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+    .resume h3 { margin-bottom:0.8rem; color:#1DB954; }
+
+    /* Contact */
+    footer { text-align:center; padding:2rem 1rem; font-size:0.9rem; color:#555; }
+    a.button { background:#1DB954; color:white; padding:0.5rem 1rem; border-radius:5px; text-decoration:none; font-weight:bold; }
+    a.button:hover { background:#17a74a; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+  <p>Front-End Web Designer | Customer Success Enthusiast | Open to International Opportunities</p>
+</header>
+
+<!-- About Me -->
+<section>
+  <h2>About Me</h2>
+  <p>Hello! I’m a proactive web designer with experience building responsive, user-focused websites. I’m passionate about technology, digital media, and creating solutions that help people. I speak English and some German, and I’m excited to live and work abroad to grow professionally and personally. My goal is to combine my technical and customer-facing skills to contribute in international environments while learning from global teams.</p>
+</section>
+
+<!-- Resume / Skills -->
+<section>
+  <h2>Resume & Skills</h2>
+  <div class="resume">
+    <div>
+      <h3>Education</h3>
+      <p>Associates Degree in General Studies</p>
+      <p>Certificate in Front-End Web Design</p>
+    </div>
+    <div>
+      <h3>Skills</h3>
+      <p>HTML, CSS, JavaScript (basic)</p>
+      <p>Responsive Web Design</p>
+      <p>Customer Support & Communication</p>
+      <p>Problem Solving & Adaptability</p>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section>
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project-card">
+      <img src="project1-screenshot.png" alt="Project 1">
+      <h3>Project One</h3>
+      <p>Built a responsive website using HTML, CSS, and JavaScript. Focused on user-friendly design.</p>
+      <a href="https://live-link-project1.com" target="_blank" class="button">View Live</a>
+    </div>
+    <div class="project-card">
+      <img src="project2-screenshot.png" alt="Project 2">
+      <h3>Project Two</h3>
+      <p>Created an interactive UI with modern layout techniques like CSS Grid and Flexbox.</p>
+      <a href="https://live-link-project2.com" target="_blank" class="button">View Live</a>
+    </div>
+    <div class="project-card">
+      <img src="project3-screenshot.png" alt="Project 3">
+      <h3>Project Three</h3>
+      <p>Developed dynamic web application features using JavaScript for enhanced user interaction.</p>
+      <a href="https://live-link-project3.com" target="_blank" class="button">View Live</a>
+    </div>
+  </div>
+</section>
+
+<!-- Goals / International Experience -->
+<section>
+  <h2>International Goals</h2>
+  <p>My goal is to work abroad in Europe to expand my technical and professional skills while immersing myself in new cultures. I am highly adaptable, eager to learn, and ready to contribute in international teams, bringing both creativity and a customer-focused mindset to every project.</p>
+</section>
+
+<!-- Contact -->
+<section>
+  <h2>Contact</h2>
+  <p>Get in touch: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+</section>
+
+<footer>
+  &copy; 2026 Your Name
+</footer>
+
+</body>
+</html>
